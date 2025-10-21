@@ -162,9 +162,9 @@ Solution:
      # Find process using port 8080
       lsof -i :8080
 
-# Kill the process
-kill -9 <PID>
+     # Kill the process
+      kill -9 <PID>
 
-# Or change port in application.properties
-server.port=8081
+     # Or change port in application.properties
+      server.port=8081
   ```
